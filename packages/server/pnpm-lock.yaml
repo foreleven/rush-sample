@@ -1,0 +1,18 @@
+lockfileVersion: '6.0'
+
+devDependencies:
+  '@common/eslint-config':
+    specifier: workspace:*
+    version: link:../../common/autoinstallers/eslint
+  '@common/typescript':
+    specifier: workspace:*
+    version: link:../../common/autoinstallers/typescript
+  '@types/node':
+    specifier: ~18.15.11
+    version: 18.15.11
+
+packages:
+
+  /@types/node@18.15.11:
+    resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
+    dev: true

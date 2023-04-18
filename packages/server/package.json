@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "typings": "./dist/types/index.d.ts",
+  "main": "./dist/es/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc --project ./tsconfig.build.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@common/eslint-config": "workspace:*",
+    "@common/typescript": "workspace:*",
+    "@types/node": "~18.15.11",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@trpc/server": "^10.20.0",
+    "zod": "^3.21.4"
+  }
+}

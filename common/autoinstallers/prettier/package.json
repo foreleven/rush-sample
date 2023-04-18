@@ -1,0 +1,10 @@
+{
+  "name": "@common/prettier",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "prettier": "^2.8.7",
+    "pretty-quick": "^3.1.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "@common/typescript/tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "server": [
+        "../server/src"
+      ]
+    }
+  }
+}
